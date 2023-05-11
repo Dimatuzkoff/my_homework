@@ -15,8 +15,8 @@ h1{
 
 h2{
   font-family: Arial;
-  color: white;
-  font-size: 16px;
+  color: black;
+  font-size: 32px;
 }
 h3{
   font-family: Arial;
@@ -95,6 +95,10 @@ h4{
     border-radius: 30px;
     text-align: center;
     border: 0;
+    cursor: pointer;
+    font-family: Arial;
+    color: white;
+    font-size: 16px;
   }
 
   .container_left_bottom{
@@ -185,11 +189,13 @@ h4{
     border-radius: 30px;
     text-align: center;
     border: 0;
+    cursor: pointer;
+    font-family: Arial;
+    color: white;
+    font-size: 16px;
   }
 
 }
-
-
 
 @media (min-width:769px) and (max-width:1024px){
 .container{
@@ -233,7 +239,6 @@ h4{
   flex-basis: 15%;
 }
 
-
 .container_left_sometext{
   display: flex;
   flex-direction: column;
@@ -257,6 +262,10 @@ h4{
   border-radius: 30px;
   text-align: center;
   border: 0;
+  cursor: pointer;
+  font-family: Arial;
+  color: white;
+  font-size: 16px;
 }
 
 .container_left_bottom{
@@ -268,11 +277,10 @@ h4{
 }
 
 .container_left_bottom_corner{
-
   flex-basis: 57%;
-height: 80%;
-border-radius: 0 100% 0 15px ;
-box-shadow: 0 8px 12px #d9dfe9 inset;
+  height: 80%;
+  border-radius: 0 100% 0 15px ;
+  box-shadow: 0 8px 12px #d9dfe9 inset;
 }
 
 .container_right{
@@ -348,10 +356,13 @@ box-shadow: 0 8px 12px #d9dfe9 inset;
   border-radius: 30px;
   text-align: center;
   border: 0;
+  cursor: pointer;
+  font-family: Arial;
+  color: white;
+  font-size: 16px;
 }
 
 }
-
 
 @media (min-width:1025px) {
   .container{
@@ -395,7 +406,6 @@ box-shadow: 0 8px 12px #d9dfe9 inset;
     flex-basis: 15%;
   }
 
-
   .container_left_sometext{
     display: flex;
     flex-direction: column;
@@ -403,7 +413,6 @@ box-shadow: 0 8px 12px #d9dfe9 inset;
     align-items: center;
     flex-basis: 17%;
   }
-
 
   .container_left_signin{
     display: flex;
@@ -420,6 +429,10 @@ box-shadow: 0 8px 12px #d9dfe9 inset;
     border-radius: 30px;
     text-align: center;
     border: 0;
+    cursor: pointer;
+    font-family: Arial;
+    color: white;
+    font-size: 16px;
   }
 
   .container_left_bottom{
@@ -510,7 +523,12 @@ box-shadow: 0 8px 12px #d9dfe9 inset;
     width: 30%;
     border-radius: 30px;
     text-align: center;
-    border: 0;
+    cursor: pointer;
+    border: none;
+    font-family: Arial;
+    color: white;
+    font-size: 16px;
+  }
   }
 
 }
