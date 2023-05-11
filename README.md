@@ -3,5 +3,5 @@ This work was implemented using HTML and CSS.The page is adapted to the followin
   1) 321px - 768px; 
   2) 769px - 1024px; 
   3) 1025px+.
-  4) 
+
 To view this page, you need to save the entire file folder. Then you should open the "index.html" file in your browser.
